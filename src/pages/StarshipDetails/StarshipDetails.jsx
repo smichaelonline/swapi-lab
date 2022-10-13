@@ -17,6 +17,7 @@ const StarshipDetails= () => {
 
   return ( 
     <>
+      <h1 className="banner"> STARSHIP DETAILS</h1>
       <div> 
         {starshipDetails.name ? 
         <>

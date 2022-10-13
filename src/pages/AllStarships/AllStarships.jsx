@@ -15,7 +15,7 @@ const AllStarships = () => {
 
   return ( 
     <>
-      <h1> STAR WARS STARSHIPS</h1>
+      <h1 className="banner"> STAR WARS STARSHIPS</h1>
       <div className="starship-div">
         {starships.map(starship => 
           <Link key={starship.model} state={{ starship }} to='/starship'> 

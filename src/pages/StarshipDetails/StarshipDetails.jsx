@@ -20,10 +20,10 @@ const StarshipDetails= () => {
       <div> 
         {starshipDetails.name ? 
         <>
-          <div className="all-starship-div">
-            <h4>NAME: {starshipDetails.name}</h4>
+          <div className="starship-info-div">
+            <h4 className="starship-name">NAME: {starshipDetails.name}</h4>
             <h4>MODEL: {starshipDetails.model}</h4>
-            <Link to='/all-starships'>RETURN</Link>
+            <Link className="return" to='/all-starships'>RETURN</Link>
           </div>
         </>
         :
